@@ -108,24 +108,25 @@
 
 
 
-  <meta name="description" content="过了这么久，终于把心心念念很久的博客给搭起来了。 希望以后能不时更新一些内容。">
+  <meta name="description" content="前言有空的时候就用scala刷一些题，熟悉一下scala和FP编程，也算复习算法。 思路题目是两数相加，用链表表示一个整数，每个节点一个数字。 trick是相加之后的之后一个数字如果大于等于10就要新加一个节点。 看到题目想到可以用scala的高阶函数来进行操作。 题解1. 函数式使用zip操作，zip又叫拉链，像拉链一样，把两个有序集合按序一对对拼在一起，形成一个Tuple。 比如12345va">
+<meta name="keywords" content="leetcode,oj,scala">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://ditaps.github.io/2018/08/18/hello-world/index.html">
+<meta property="og:title" content="LeetCode Add Two Numbers">
+<meta property="og:url" content="http://ditaps.github.io/2018/08/19/LeetCode-Add-Two-Numbers/index.html">
 <meta property="og:site_name" content="ditaps&#39; blog">
-<meta property="og:description" content="过了这么久，终于把心心念念很久的博客给搭起来了。 希望以后能不时更新一些内容。">
+<meta property="og:description" content="前言有空的时候就用scala刷一些题，熟悉一下scala和FP编程，也算复习算法。 思路题目是两数相加，用链表表示一个整数，每个节点一个数字。 trick是相加之后的之后一个数字如果大于等于10就要新加一个节点。 看到题目想到可以用scala的高阶函数来进行操作。 题解1. 函数式使用zip操作，zip又叫拉链，像拉链一样，把两个有序集合按序一对对拼在一起，形成一个Tuple。 比如12345va">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-19T05:18:18.949Z">
+<meta property="og:updated_time" content="2018-08-19T09:13:43.965Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="过了这么久，终于把心心念念很久的博客给搭起来了。 希望以后能不时更新一些内容。">
+<meta name="twitter:title" content="LeetCode Add Two Numbers">
+<meta name="twitter:description" content="前言有空的时候就用scala刷一些题，熟悉一下scala和FP编程，也算复习算法。 思路题目是两数相加，用链表表示一个整数，每个节点一个数字。 trick是相加之后的之后一个数字如果大于等于10就要新加一个节点。 看到题目想到可以用scala的高阶函数来进行操作。 题解1. 函数式使用zip操作，zip又叫拉链，像拉链一样，把两个有序集合按序一对对拼在一起，形成一个Tuple。 比如12345va">
 
 
 
 
 
 
-  <link rel="canonical" href="http://ditaps.github.io/2018/08/18/hello-world/"/>
+  <link rel="canonical" href="http://ditaps.github.io/2018/08/19/LeetCode-Add-Two-Numbers/"/>
 
 
 
@@ -135,7 +136,7 @@
   };
 </script>
 
-  <title>Hello World | ditaps' blog</title>
+  <title>LeetCode Add Two Numbers | ditaps' blog</title>
   
 
 
@@ -296,7 +297,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://ditaps.github.io/2018/08/18/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://ditaps.github.io/2018/08/19/LeetCode-Add-Two-Numbers/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ditaps">
@@ -313,7 +314,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World
+          <h1 class="post-title" itemprop="name headline">LeetCode Add Two Numbers
               
             
           </h1>
@@ -338,24 +339,12 @@
                 
               
 
-              <time title="创建时间：2018-08-18 15:00:00" itemprop="dateCreated datePublished" datetime="2018-08-18T15:00:00+08:00">2018-08-18</time>
+              <time title="创建时间：2018-08-19 16:24:56 / 修改时间：17:13:43" itemprop="dateCreated datePublished" datetime="2018-08-19T16:24:56+08:00">2018-08-19</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-08-19 13:18:18" itemprop="dateModified" datetime="2018-08-19T13:18:18+08:00">2018-08-19</time>
               
             
           </span>
@@ -372,7 +361,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/生活/" itemprop="url" rel="index"><span itemprop="name">生活</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/leetcode/" itemprop="url" rel="index"><span itemprop="name">leetcode</span></a></span>
 
                 
                 
@@ -386,7 +375,7 @@
 
           
           
-             <span id="/2018/08/18/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+             <span id="/2018/08/19/LeetCode-Add-Two-Numbers/" class="leancloud_visitors" data-flag-title="LeetCode Add Two Numbers">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -411,7 +400,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">40</span>
+                <span title="本文字数">2.7k</span>
               
 
               
@@ -425,7 +414,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 分钟</span>
+                <span title="阅读时长">2 分钟</span>
               
             </div>
           
@@ -445,8 +434,19 @@
       
 
       
-        <p>过了这么久，终于把心心念念很久的博客给搭起来了。</p>
-<p>希望以后能不时更新一些内容。</p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>有空的时候就用scala刷一些题，熟悉一下scala和FP编程，也算复习算法。</p>
+<h1 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h1><p>题目是两数相加，用链表表示一个整数，每个节点一个数字。</p>
+<p>trick是相加之后的之后一个数字如果大于等于10就要新加一个节点。</p>
+<p>看到题目想到可以用scala的高阶函数来进行操作。</p>
+<h1 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h1><h2 id="1-函数式"><a href="#1-函数式" class="headerlink" title="1. 函数式"></a>1. 函数式</h2><p>使用zip操作，zip又叫拉链，像拉链一样，把两个有序集合按序一对对拼在一起，形成一个Tuple。</p>
+<p>比如<br><figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">val</span> a = <span class="type">List</span>(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"><span class="keyword">val</span> b = <span class="type">List</span>(<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">val</span> c = a.zip(b) </span><br><span class="line"><span class="comment">//List[(Int, String)] = List((1,a), (2,b), (3,c))</span></span><br></pre></td></tr></table></figure></p>
+<p>但是zip操作一般是应用于两个相同长度的列表。它会把两个不同长度的列表，按照较短的那个列表进行截断。</p>
+<p>这时候就需要用到 zipAll方法，它可以补全较短的列表，按照较长的列表的长短来进行拉链操作，这样就需要传入两个用于补充长度的默认值参数。<br><code>zipAll(B, aa, bb)</code><br>其中 <em>aa</em> 是前一个列表的默认值，<em>bb</em> 是第二个列表的默认值。<br><figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">val</span> d = a.zipAll(b, <span class="number">0</span>, <span class="string">"T"</span>)</span><br><span class="line"><span class="comment">//List[(Int, String)] = List((1,a), (2,b), (3,c), (0,d))</span></span><br></pre></td></tr></table></figure></p>
+<p>然后在应用 reduceLeft来合并节点</p>
+<figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">object</span> <span class="title">AddTwoNumbers</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">addTwoNumbers</span></span>(l1: <span class="type">ListNode</span>, l2: <span class="type">ListNode</span>): <span class="type">ListNode</span> = &#123;</span><br><span class="line">    <span class="keyword">val</span> a1 = listNode2List(l1)</span><br><span class="line">    <span class="keyword">val</span> a2 = listNode2List(l2)</span><br><span class="line">    <span class="keyword">val</span> lns = a1.zipAll(a2, <span class="number">0</span>, <span class="number">0</span>).map(x =&gt; x._1 + x._2).map(<span class="keyword">new</span> <span class="type">ListNode</span>(_))</span><br><span class="line">    <span class="keyword">val</span> last = lns.reduceLeft((n1, n2) =&gt; &#123;</span><br><span class="line">      n2.x += n1.x / <span class="number">10</span></span><br><span class="line">      n1.x = n1.x % <span class="number">10</span></span><br><span class="line">      n1.next = n2</span><br><span class="line">      n2</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">if</span> (last.x &gt;= <span class="number">10</span>) &#123;</span><br><span class="line">      <span class="keyword">val</span> ll = <span class="keyword">new</span> <span class="type">ListNode</span>(last.x / <span class="number">10</span>)</span><br><span class="line">      last.x = last.x % <span class="number">10</span></span><br><span class="line">      last.next = ll</span><br><span class="line">    &#125;</span><br><span class="line">    lns(<span class="number">0</span>)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">listNode2List</span></span>(ln: <span class="type">ListNode</span>): <span class="type">List</span>[<span class="type">Int</span>] = &#123;</span><br><span class="line">    <span class="keyword">val</span> arrBuffer = <span class="keyword">new</span> collection.mutable.<span class="type">ArrayBuffer</span>[<span class="type">Int</span>]()</span><br><span class="line">    <span class="keyword">var</span> curNode = ln</span><br><span class="line">    <span class="keyword">while</span> (curNode != <span class="literal">null</span>) &#123;</span><br><span class="line">      arrBuffer.append(curNode.x)</span><br><span class="line">      curNode = curNode.next</span><br><span class="line">    &#125;</span><br><span class="line">    arrBuffer.toList</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">list2ListNode</span></span>(list: <span class="type">List</span>[<span class="type">Int</span>]): <span class="type">ListNode</span> = &#123;</span><br><span class="line">    <span class="keyword">val</span> lns = list.map(<span class="keyword">new</span> <span class="type">ListNode</span>(_))</span><br><span class="line">    lns.reduceLeft((n1, n2) =&gt; &#123;</span><br><span class="line">      n1.next = n2</span><br><span class="line">      n2</span><br><span class="line">    &#125;)</span><br><span class="line">    lns(<span class="number">0</span>)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">main</span></span>(args: <span class="type">Array</span>[<span class="type">String</span>]): <span class="type">Unit</span> = &#123;</span><br><span class="line">    <span class="comment">/** addTwoNumbers */</span></span><br><span class="line"><span class="comment">//    val ln1 = list2ListNode(List(2, 4, 3))</span></span><br><span class="line"><span class="comment">//    val ln2 = list2ListNode(List(3, 8, 9, 9, 3))</span></span><br><span class="line">    <span class="keyword">val</span> ln1 = list2ListNode(<span class="type">List</span>(<span class="number">5</span>, <span class="number">5</span>, <span class="number">9</span>, <span class="number">9</span>))</span><br><span class="line">    <span class="keyword">val</span> ln2 = list2ListNode(<span class="type">List</span>(<span class="number">5</span>, <span class="number">5</span>))</span><br><span class="line">    <span class="keyword">val</span> ln3 = addTwoNumbers(ln1, ln2)</span><br><span class="line">    listNode2List(ln3).map( println )</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这样执行用时是 <code>3148 ms</code>。好像有点久，换过程式方法试试看。</p>
+<h2 id="2-过程式"><a href="#2-过程式" class="headerlink" title="2.过程式"></a>2.过程式</h2><figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">addTwoNumbers</span></span>(l1: <span class="type">ListNode</span>, l2: <span class="type">ListNode</span>): <span class="type">ListNode</span> = &#123;</span><br><span class="line">    <span class="keyword">var</span> p1 = l1</span><br><span class="line">    <span class="keyword">var</span> p2 = l2</span><br><span class="line">    <span class="keyword">while</span> (p1 != <span class="literal">null</span> &amp;&amp; p2 != <span class="literal">null</span>) &#123;</span><br><span class="line">      p1.x = p1.x + p2.x</span><br><span class="line">      p2.x = p1.x</span><br><span class="line">      p1 = p1.next</span><br><span class="line">      p2 = p2.next</span><br><span class="line">    &#125;</span><br><span class="line">    p1 = <span class="keyword">if</span> (p1 == <span class="literal">null</span>) l2 <span class="keyword">else</span> l1</span><br><span class="line">    p2 = p1</span><br><span class="line">    <span class="keyword">while</span> (p1 != <span class="literal">null</span>) &#123;</span><br><span class="line">      <span class="keyword">if</span> (p1.x &gt;= <span class="number">10</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (p1.next != <span class="literal">null</span>) &#123;</span><br><span class="line">          p1.next.x += p1.x / <span class="number">10</span></span><br><span class="line">          p1.x = p1.x % <span class="number">10</span></span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">          <span class="keyword">val</span> nn = <span class="keyword">new</span> <span class="type">ListNode</span>(<span class="number">1</span>)</span><br><span class="line">          p1.x = p1.x % <span class="number">10</span></span><br><span class="line">          p1.next = nn</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      p1 = p1.next</span><br><span class="line">    &#125;</span><br><span class="line">    p2</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>这样执行用时也要 <code>2232 ms</code>。应该还是有不少改进空间。</p>
 
       
     </div>
@@ -478,7 +478,7 @@
     <strong>本文作者： </strong>ditaps</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://ditaps.github.io/2018/08/18/hello-world/" title="Hello World">http://ditaps.github.io/2018/08/18/hello-world/</a>
+    <a href="http://ditaps.github.io/2018/08/19/LeetCode-Add-Two-Numbers/" title="LeetCode Add Two Numbers">http://ditaps.github.io/2018/08/19/LeetCode-Add-Two-Numbers/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
@@ -489,6 +489,16 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/leetcode/" rel="tag"># leetcode</a>
+          
+            <a href="/tags/oj/" rel="tag"># oj</a>
+          
+            <a href="/tags/scala/" rel="tag"># scala</a>
+          
+        </div>
+      
 
       
       
@@ -498,15 +508,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/08/18/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/19/LeetCode-Add-Two-Numbers/" rel="prev" title="LeetCode Add Two Numbers">
-                LeetCode Add Two Numbers <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -556,8 +566,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -638,6 +657,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#思路"><span class="nav-number">2.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#题解"><span class="nav-number">3.</span> <span class="nav-text">题解</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-函数式"><span class="nav-number">3.1.</span> <span class="nav-text">1. 函数式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-过程式"><span class="nav-number">3.2.</span> <span class="nav-text">2.过程式</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
